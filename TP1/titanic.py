@@ -152,7 +152,6 @@ attri = calculateAttribut(liste, debut)
 # Classe existante et leur quantité
 unique, counts = np.unique(train[:, -1], return_counts=True)
 totalResul = dict(zip(unique, counts))
-print(totalResul)
 
 # Get probability of each attributes, knowing the classe
 # P(a_i | c_j)
